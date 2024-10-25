@@ -68,7 +68,7 @@ class MyAppState extends State<MyApp> {
           //shifting - 탭 버튼 클릭시, 탭 버튼 부분이 애니메이션 효과에 의해..
           type: BottomNavigationBarType.shifting,//fixed - 애니메이션 효과 없고..
           items: <BottomNavigationBarItem>[
-            BottomNavigationBarItem(assets/icon/user
+            BottomNavigationBarItem(
               icon: Icon(Icons.home),
               label: 'first',
               backgroundColor: Colors.green,//이 탭 버튼이 눌리면 bar 전체가 이 칼라로..
